@@ -4,22 +4,19 @@
 
 ### Структура проекта
 
-- Main.java: Главный класс, выполняющий следующие задачи:
+1. Main.java: Главный класс, выполняющий следующие задачи:
 - Работа с HashMap для демонстрации обмена ключей и значений.
 - Тестирование производительности доступа по индексу в ArrayList и LinkedList.
 - Удаление дубликатов из списка строк.
 
-- hashmap/HashMapUtil.java: Утилитарный класс с методом для свопа ключей и значений в HashMap.
-- Метод:
-- swapKeysAndValues(HashMap<Integer, String> map): Принимает HashMap, возвращает новый HashMap с перевернутыми парами.
+2. hashmap/HashMapUtil.java: Утилитарный класс с методом для свопа ключей и значений в HashMap.
+- Метод: swapKeysAndValues(HashMap<Integer, String> map): Принимает HashMap, возвращает новый HashMap с перевернутыми парами.
 
-- listperformance/ListPerformanceTest.java: Класс для тестирования производительности доступа по индексу в списках.
-- Метод:
-- runTest(int size, int iterations): Заполняет ArrayList и LinkedList случайными числами и измеряет время доступа по индексу для обоих списков.
+3. listperformance/ListPerformanceTest.java: Класс для тестирования производительности доступа по индексу в списках.
+- Метод: runTest(int size, int iterations): Заполняет ArrayList и LinkedList случайными числами и измеряет время доступа по индексу для обоих списков.
 
-- removeduplicates/RemoveDuplicates.java: Класс для удаления дубликатов из списка строк.
-- Метод:
-- removeDuplicates(ArrayList<String> list): Принимает ArrayList строк, возвращает новый ArrayList с уникальными строками без дубликатов.
+4. removeduplicates/RemoveDuplicates.java: Класс для удаления дубликатов из списка строк.
+- Метод: removeDuplicates(ArrayList<String> list): Принимает ArrayList строк, возвращает новый ArrayList с уникальными строками без дубликатов.
 
 ### Примеры вывода
 
